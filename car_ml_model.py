@@ -113,5 +113,5 @@ if __name__ == '__main__':
         price = float(input("\nEnter car price: "))
         year = int(input("Enter car year: "))
         prediction = model.predict([[price, year]])[0]
-        rating_map = {0:'No rating',1:'High Price',2:'Low Price',3:'Fair Price',4:'Great Price'}
+        rating_map = {0:'No Rating',1:'High Price',2:'Low Price',3:'Fair Price',4:'Great Price'}
         print(fr"\nThe car's price rating is: {rating_map[prediction]}")
