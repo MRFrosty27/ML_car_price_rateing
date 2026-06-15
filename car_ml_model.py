@@ -23,7 +23,7 @@ if user_input == 1:
 
         plt.xlabel('Price', fontsize=13)
         plt.ylabel('Price Rating (0-4)', fontsize=13)
-        plt.title(f'Scatter Plot: Price vs Price Rating - {name}', fontsize=15)
+        plt.title(f'Scatter Plot: Price vs Price Rating - {name} {model_name}', fontsize=15)
         plt.yticks([0, 1, 2, 3, 4])
         plt.grid(True, alpha=0.3, linestyle='--')
         plt.legend(title='Price Rating')
@@ -55,7 +55,6 @@ if user_input == 1:
             if os.path.getsize(filename) == 0: raise Warning(f'{filename} is empty')#raise error if empty
 
             temp_ds = pd.read_csv(filename,sep=',',dtype={"Brand": 'str', "Model": 'str',"Variant": 'str',"Year":'str',"Milage": 'str', "Manual_Automatic": 'category',"Price_rating": 'category', "Price": 'str'},header=0)
-            print(temp_ds[['Model','Milage', 'Year','Price']].head(5))
             #ensure that columns Milage, Year and Price only contain numbers
             temp_ds['Milage'] = temp_ds['Milage'].str.replace(r'[^0-9]', '', regex=True)
             temp_ds['Price'] = temp_ds['Price'].str.replace(r'[^0-9]', '', regex=True)
@@ -73,36 +72,45 @@ if user_input == 1:
     
     for name, ds in model_datasets.items():
         ds = ds.copy()
-        print(ds.head(5))
         ds['Cleaned_Model'] = ds['Model'].apply(clean_model_name)
-        print(ds['Cleaned_Model'].head(10))
         for model_name in sorted(ds['Cleaned_Model'].unique()):#seperate all unique models into seperate datasets
+            model_filename = f'{model_name}_ml_model.joblib'
+            if os.path.exists(model_filename): 
+                user_input = int(input('a model already exists\npress 1 to keep current model\npress 2 to retrain\nenter: '))
+                if user_input == 1: continue
+                elif user_input == 2: os.remove(model_filename)
+                else:raise Warning('incorrect input')
+
             model_ds = ds[ds['Cleaned_Model'] == model_name].copy()
             model_ds['Price_rating_num'] = model_ds['Price_rating'].map(rating_map)#convert rating to int 
             plot_data(model_ds)
             #drop all rows with no rating
             train_ds = model_ds.dropna(subset=['Price_rating_num'])
             train_ds = train_ds[train_ds['Price_rating_num'] != 0]
-            if len(train_ds) == 0: raise Warning(f'could not create training data for {model_name}')
+
+            if len(train_ds) < 10: 
+                print(f'was not enough data to create training dataset for {model_name}')
+                continue
+
             x_train, x_test_accuracy, y_train, y_test_accuracy = train_test_split(train_ds[['Price', 'Year','Milage']],train_ds['Price_rating_num'],test_size=0.1)
             test_ds = train_ds[train_ds['Price_rating_num'] == 0]#use unrated rows for testing after accuracy test
             x_test = test_ds[['Price', 'Year','Milage']]
             y_test = test_ds['Price_rating_num']
             print(f"Training model for {name} - {model_name}...")
             model = RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)
-            print(x_train.head(10))
-            print(y_train.head(10))
             model.fit(x_train, y_train)
-            model_accuracy_test_results = model.predict(x_test_accuracy,y_test_accuracy)
-            acc = accuracy_score(
-            prec = precision_score(
-            rec = recall_score(
-            f1 = f1_score(
-            r2 = r2_score(
-            mae = mean_absolute_error(
-            mse = mean_squared_error(
-            model_filename = f'{model_name}_ml_model.joblib'#store model
-            joblib.dump(model, model_filename)
+
+            model_accuracy_test_results = model.predict(x_test_accuracy)
+            acc = accuracy_score(y_test_accuracy,model_accuracy_test_results)
+            #prec = precision_score(y_test_accuracy,model_accuracy_test_results)
+            #rec = recall_score(y_test_accuracy,model_accuracy_test_results)
+            #f1 = f1_score(y_test_accuracy,model_accuracy_test_results)
+            #r2 = r2_score(y_test_accuracy,model_accuracy_test_results)
+            #mae = mean_absolute_error(y_test_accuracy,model_accuracy_test_results)
+            #mse = mean_squared_error(y_test_accuracy,model_accuracy_test_results)
+            #\nprecision: {prec}\nrecall: {rec}\nf1: {f1}\nr2: {r2}\nmae: {mae}\nmse: {mse}
+            print(f'accuracy: {acc}')
+            joblib.dump(model, model_filename)#store model
 
 elif user_input == 2:
     script_path = os.path.dirname(os.path.abspath(__file__))
