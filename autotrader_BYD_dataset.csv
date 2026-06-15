@@ -1,316 +1,445 @@
 Brand,Model,Variant,Year,Milage,Manual_Automatic,Price_rating,Price
-Brand,Model,Variant,Year,Milage,Manual_Automatic,Price_rating,Price
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Sealion 6,Dynamic,BYD ,1 000,Automatic,No Rating,R 659 900
-BYD,BYD Sealion 5,Dynamic,BYD ,1 000,Automatic,No Rating,R 569 900
-BYD,BYD Shark 6,Premium AWD,BYD ,1 000,Automatic,No Rating,R 959 900
-BYD,ined,,ined,,,,
-BYD,BYD Shark 6,Premium AWD,BYD ,6 500,Automatic,No Rating,R 899 800
-BYD,BYD Seal,Performance AWD,BYD ,4 578,Automatic,No Rating,R 1 139 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 684 900
-BYD,BYD Sealion 5,Comfort,BYD ,3 000,Automatic,No Rating,R 469 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 989 900
-BYD,BYD Shark 6,Premium AWD,BYD ,100,Automatic,No Rating,R 979 000
-BYD,BYD Sealion 6,Comfort,BYD ,Automa,Hybrid,No Rating,R 639 950
+BYD,BYD Atto 3,Extended,2026,9 500,Automatic,No Rating,R 689 900
+BYD,BYD Shark 6,Premium AWD,2025,9 370,Automatic,No Rating,R 939 000
+BYD,BYD Dolphin Surf,Dynamic,2026,30,Automatic,Great Price,R 379 900
+BYD,BYD Sealion 6,Comfort,2026,8 000,Automatic,No Rating,R 629 900
+BYD,BYD Shark 6,Premium AWD,2026,3 000,Automatic,No Rating,R 949 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 900
+BYD,BYD Sealion 6,Dynamic,2026,3 500,Automatic,No Rating,R 689 900
+BYD,BYD Atto 3,Standard,2025,14 000,Automatic,No Rating,R 619 900
+BYD,BYD Sealion 6,Dynamic,2026,3 500,Automatic,No Rating,R 649 500
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 559 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,3 000,Automatic,No Rating,R 369 800
-BYD,BYD Dolphin Surf,Dynamic,BYD ,3 000,Automatic,No Rating,R 369 800
-BYD,BYD Dolphin Surf,Dynamic,BYD ,3 000,Automatic,No Rating,R 369 800
-BYD,BYD Dolphin Surf,Dynamic,BYD ,3 000,Automatic,No Rating,R 369 800
-BYD,BYD Shark 6,Premium AWD,BYD ,8 000,Automatic,No Rating,R 939 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 389 990
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 389 990
-BYD,BYD Sealion 6,Comfort,BYD ,Automa,Hybrid,No Rating,R 639 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 393 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 390 900
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 336 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 950
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 950
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 950
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 950
+BYD,BYD Shark 6,Premium AWD,2025,21 240,Automatic,No Rating,R 919 900
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 789 950
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 789 950
+BYD,BYD Sealion 7,Performance AWD,2026,Automa,Electric,No Rating,R 1 269 950
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 950
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 950
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 979 950
+BYD,ined,,unde,,,,
+BYD,BYD Dolphin Surf,Dynamic,2026,10 200,Automatic,Great Price,R 369 890
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 499 950
+BYD,BYD Dolphin,Extended Range,2026,Automa,Electric,No Rating,R 588 900
+BYD,BYD Atto 8,Performance AWD,2026,Automa,Hybrid,No Rating,R 1 254 900
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Sealion 6,Dynamic,BYD ,5 000,Automatic,No Rating,R 684 500
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 559 950
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 393 900
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 336 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,11 985,Automatic,No Rating,R 369 990
-BYD,BYD Dolphin,Standard Range,BYD ,51 000,Automatic,No Rating,R 429 900
-BYD,BYD Sealion 6,Comfort,BYD ,Automa,Hybrid,No Rating,R 629 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 764 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,5 000,Automatic,No Rating,R 384 500
+BYD,BYD Atto 8,Premium,2026,Automa,Hybrid,No Rating,R 1 054 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 499 950
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 950
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 950
+BYD,ined,,unde,,,,
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Shark 6,Premium AWD,BYD ,3 000,Automatic,No Rating,R 989 990
-BYD,BYD Sealion 6,Dynamic,BYD ,4 900,Automatic,No Rating,R 669 500
-BYD,BYD Shark 6,Premium AWD,BYD ,16 105,Automatic,Fair Price,R 869 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,5 900,Automatic,No Rating,R 379 500
-BYD,BYD Sealion 7,Performance AWD,BYD ,Automa,Electric,No Rating,R 1 279 900
-BYD,BYD Shark 6,Premium AWD,BYD ,5 000,Automatic,No Rating,R 959 890
-BYD,BYD Dolphin Surf,Dynamic,BYD ,5 100,Automatic,No Rating,R 379 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,4 000,Automatic,No Rating,R 789 890
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 949 900
-BYD,BYD Sealion 5,Comfort,BYD ,Automa,Hybrid,No Rating,R 504 900
-BYD,BYD Sealion 5,Comfort,BYD ,Automa,Hybrid,No Rating,R 489 950
-BYD,ined,,ined,,,,
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 339 950
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 989 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 989 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 950
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 799 900
+BYD,BYD Shark 6,Premium AWD,2026,1 500,Automatic,No Rating,R 959 900
+BYD,BYD Sealion 6,Dynamic,2026,28 700,Automatic,No Rating,R 609 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 979 950
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 979 950
+BYD,BYD Shark 6,Premium AWD,2026,6 000,Automatic,No Rating,R 969 000
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Shark 6,Premium AWD,2025,20 400,Automatic,No Rating,R 899 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Seal,Premium Extended Range,2026,1 000,Automatic,No Rating,R 979 900
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 339 900
-BYD,BYD Sealion 6,Dynamic,BYD ,4 900,Automatic,No Rating,R 669 500
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 696 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 797 900
-BYD,BYD Atto 3,Standard,BYD ,Automa,Electric,No Rating,R 699 900
-BYD,ined,,ined,,,,
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,5 900,Automatic,No Rating,R 379 500
-BYD,BYD Shark 6,Premium AWD,BYD ,16 105,Automatic,Fair Price,R 869 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 949 900
+BYD,BYD Shark 6,Premium AWD,2026,14 500,Automatic,No Rating,R 929 900
+BYD,BYD Dolphin,Extended Range,2026,3 000,Automatic,No Rating,R 598 889
+BYD,BYD Sealion 6,Dynamic,2026,1 500,Automatic,No Rating,R 685 900
+BYD,BYD Seal,Premium Extended Range,2026,Automa,Electric,No Rating,R 989 950
+BYD,BYD Sealion 6,Premium AWD,2026,7 500,Automatic,No Rating,R 749 900
+BYD,BYD Sealion 5,Dynamic,2026,5 000,Automatic,No Rating,R 549 900
+BYD,BYD Sealion 6,Comfort,2026,6 500,Automatic,No Rating,R 589 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Sealion 6,Premium AWD,2026,8 500,Automatic,No Rating,R 715 500
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 339 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 669 950
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 669 950
-BYD,BYD Sealion 6,Comfort,BYD ,Automa,Hybrid,No Rating,R 629 950
-BYD,BYD Sealion 6,Comfort,BYD ,Automa,Hybrid,No Rating,R 629 950
-BYD,BYD Sealion 5,Comfort,BYD ,Automa,Hybrid,No Rating,R 489 950
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 339 950
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 959 950
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 959 950
-BYD,BYD Sealion 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 769 950
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,BYD Sealion 5,Comfort,BYD ,Automa,Hybrid,No Rating,R 504 900
-BYD,BYD Shark 6,Premium AWD,BYD ,3 000,Automatic,No Rating,R 939 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,7 000,Automatic,No Rating,R 379 900
-BYD,BYD Sealion 5,Dynamic,BYD ,5 000,Automatic,No Rating,R 548 899
+BYD,ined,,unde,,,,
+BYD,BYD Seal,Performance AWD,2026,871,Automatic,No Rating,R 1 169 900
+BYD,BYD Shark 6,Premium AWD,2026,5 500,Automatic,No Rating,R 939 500
+BYD,BYD Sealion 6,Dynamic,2026,4 977,Automatic,No Rating,R 699 900
+BYD,BYD Dolphin Surf,Dynamic,2026,1 500,Automatic,Fair Price,R 395 900
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 619 950
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 619 950
+BYD,BYD Sealion 5,Comfort,2026,9 000,Automatic,No Rating,R 489 500
+BYD,BYD Sealion 7,Performance AWD,2026,Automa,Electric,No Rating,R 1 265 950
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 564 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
 BYD,,,,,,No Rating,
+BYD,,,,,,Fair Price,
 BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Sealion 6,Dynamic,BYD ,2 000,Automatic,No Rating,R 675 900
-BYD,BYD Sealion 5,Dynamic,BYD ,3 500,Automatic,No Rating,R 544 900
-BYD,BYD Shark 6,Premium AWD,BYD ,3 890,Automatic,No Rating,R 939 950
-BYD,BYD Seal,Extended Range,BYD ,Automa,Electric,No Rating,R 1 205 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 694 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 979 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 564 900
-BYD,BYD Sealion 5,Comfort,BYD ,Automa,Hybrid,No Rating,R 504 900
-BYD,BYD Seal,Extended Range,BYD ,Automa,Electric,No Rating,R 969 900
-BYD,BYD Atto 3,Standard,BYD ,14 000,Automatic,No Rating,R 619 900
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Sealion 7,Performance AWD,BYD ,12 000,Automatic,No Rating,R 1 089 900
-BYD,BYD Sealion 7,Performance AWD,BYD ,9 050,Automatic,No Rating,R 1 155 000
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 336 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 979 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 794 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 559 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 390 900
-BYD,ined,,ined,,,,
-BYD,BYD Dolphin Surf,Comfort,BYD ,1 500,Automatic,No Rating,R 349 900
-BYD,BYD Sealion 5,Dynamic,BYD ,6 754,Automatic,No Rating,R 539 500
-BYD,BYD Dolphin Surf,Dynamic,BYD ,9 810,Automatic,No Rating,R 369 500
-BYD,BYD Sealion 7,Performance AWD,BYD ,Automa,Electric,No Rating,R 1 313 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 769 950
-BYD,BYD Shark 6,Premium AWD,BYD ,20 500,Automatic,Fair Price,R 909 899
-BYD,BYD Dolphin Surf,Dynamic,BYD ,2 452,Automatic,No Rating,R 389 990
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 339 900
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Shark 6,Premium AWD,BYD ,25,Automatic,Fair Price,R 959 900
-BYD,BYD Shark 6,Premium AWD,BYD ,93,Automatic,No Rating,R 959 000
-BYD,BYD Sealion 6,Premium AWD,BYD ,200,Automatic,No Rating,R 797 900
-BYD,BYD Shark 6,Premium AWD,BYD ,12 500,Automatic,Fair Price,R 879 890
-BYD,BYD Sealion 6,Premium AWD,BYD ,1 889,Automatic,No Rating,R 784 990
-BYD,BYD Sealion 5,Comfort,BYD ,Automa,Hybrid,No Rating,R 489 900
-BYD,ined,,ined,,,,
-BYD,BYD Sealion 7,Performance AWD,BYD ,5 000,Automatic,No Rating,R 1 219 889
-BYD,BYD Sealion 5,Dynamic,BYD ,7 500,Automatic,No Rating,R 549 900
-BYD,BYD Shark 6,Premium AWD,BYD ,5 000,Automatic,No Rating,R 949 900
-BYD,BYD Sealion 6,Dynamic,BYD ,3 000,Automatic,No Rating,R 659 900
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Sealion 5,Comfort,BYD ,1 500,Automatic,No Rating,R 499 900
-BYD,BYD Atto 3,Extended,BYD ,7 500,Automatic,No Rating,R 719 900
-BYD,BYD Sealion 5,Dynamic,BYD ,10 700,Automatic,No Rating,R 549 890
-BYD,BYD Sealion 6,Dynamic,BYD ,200,Automatic,No Rating,R 689 890
-BYD,BYD Shark 6,Premium AWD,BYD ,200,Automatic,No Rating,R 959 890
-BYD,BYD Sealion 6,Premium AWD,BYD ,100,Automatic,No Rating,R 797 900
-BYD,BYD Sealion 7,Premium,BYD ,100,Automatic,No Rating,R 1 070 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,100,Automatic,No Rating,R 393 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,100,Automatic,No Rating,R 393 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 959 900
-BYD,BYD Atto 3,Standard,BYD ,44 000,Automatic,No Rating,R 549 890
-BYD,BYD Shark 6,Premium AWD,BYD ,10 000,Automatic,No Rating,R 1 114 900
-BYD,BYD Shark 6,Premium AWD,BYD ,300,Automatic,Fair Price,R 939 996
-BYD,BYD Sealion 5,Dynamic,BYD ,150,Automatic,No Rating,R 569 900
-BYD,BYD Seal,AWD Performance,BYD ,150,Automatic,No Rating,R 1 199 900
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Shark 6,Premium AWD,BYD ,2 000,Automatic,No Rating,R 949 900
-BYD,BYD Shark 6,Premium AWD,BYD ,5 000,Automatic,No Rating,R 949 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 579 900
-BYD,BYD Sealion 7,Performance AWD,BYD ,Automa,Electric,No Rating,R 1 299 900
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 339 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 689 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 959 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 389 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,8 500,Automatic,No Rating,R 719 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 679 900
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Sealion 6,Comfort,BYD ,Automa,Hybrid,No Rating,R 629 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 389 900
-BYD,BYD Seal,Premium Extended Range,BYD ,Automa,Electric,No Rating,R 989 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 959 900
-BYD,ined,,ined,,,,
-BYD,BYD Sealion 7,Premium,BYD ,Automa,Electric,No Rating,R 1 069 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 949 900
-BYD,BYD Shark 6,Premium AWD,BYD ,20,Automatic,Fair Price,R 959 900
-BYD,BYD Sealion 7,Premium,BYD ,100,Automatic,No Rating,R 1 099 900
-BYD,BYD Sealion 6,Comfort,BYD ,160,Automatic,No Rating,R 639 900
-BYD,BYD Seal,Premium Extended Range,BYD ,700,Automatic,No Rating,R 979 900
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 949 900
-BYD,BYD Seal,Premium Extended Range,BYD ,700,Automatic,No Rating,R 979 900
-BYD,BYD Seal,AWD Performance,BYD ,1 911,Automatic,No Rating,R 1 149 900
-BYD,BYD Sealion 5,Dynamic,BYD ,2 550,Automatic,No Rating,R 569 900
-BYD,BYD Shark 6,Premium AWD,BYD ,20,Automatic,Fair Price,R 959 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 389 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 389 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 389 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 689 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 689 900
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Sealion 7,Premium,BYD ,Automa,Electric,No Rating,R 1 069 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 689 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,4 000,Automatic,No Rating,R 769 900
-BYD,BYD Shark 6,Premium AWD,BYD ,101,Automatic,No Rating,R 989 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,150,Automatic,No Rating,R 395 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,1 000,Automatic,No Rating,R 395 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,1 500,Automatic,No Rating,R 399 900
-BYD,ined,,ined,,,,
-BYD,BYD Shark 6,Premium AWD,BYD ,29 500,Automatic,No Rating,R 849 900
-BYD,BYD Sealion 6,Dynamic,BYD ,101,Automatic,No Rating,R 699 900
-BYD,BYD Sealion 5,Dynamic,BYD ,101,Automatic,No Rating,R 569 900
-BYD,BYD Seal,AWD Performance,BYD ,1 800,Automatic,No Rating,R 1 199 950
-BYD,BYD Sealion 6,Premium AWD,BYD ,1 250,Automatic,No Rating,R 789 950
-BYD,BYD Sealion 6,Comfort,BYD ,50,Automatic,No Rating,R 638 950
-BYD,BYD Sealion 6,Dynamic,BYD ,500,Automatic,No Rating,R 689 950
-BYD,BYD Shark 6,Premium AWD,BYD ,4 850,Automatic,No Rating,R 949 950
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,,,,,,No Rating,
-BYD,BYD Shark 6,Premium AWD,BYD ,11 411,Automatic,Fair Price,R 929 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 1 089 990
-BYD,BYD Sealion 6,Premium AWD,BYD ,3 550,Automatic,No Rating,R 739 900
-BYD,BYD Sealion 5,Dynamic,BYD ,4 000,Automatic,No Rating,R 539 900
-BYD,BYD Sealion 6,Dynamic,BYD ,8 900,Automatic,No Rating,R 689 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 1 039 990
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 579 900
-BYD,BYD Sealion 6,Dynamic,BYD ,7 800,Automatic,No Rating,R 649 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Sealion 5,Dynamic,BYD ,100,Automatic,No Rating,R 568 950
+BYD,BYD Sealion 7,Performance AWD,2026,Automa,Electric,No Rating,R 1 269 500
+BYD,BYD Sealion 6,Dynamic,2025,9 784,Automatic,No Rating,R 639 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 549 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 549 900
+BYD,BYD Atto 3,Standard,2026,5 500,Automatic,No Rating,R 649 900
+BYD,BYD Sealion 5,Comfort,2026,890,Automatic,No Rating,R 479 900
+BYD,BYD Atto 8,Performance AWD,2026,Automa,Hybrid,No Rating,R 1 259 500
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 799 900
+BYD,BYD Sealion 6,Premium AWD,2026,4 300,Automatic,No Rating,R 799 900
+BYD,BYD Sealion 5,Comfort,2026,4 700,Automatic,No Rating,R 509 900
 BYD,,,,,,Fair Price,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Sealion 5,Dynamic,BYD ,Automa,Hybrid,No Rating,R 569 900
-BYD,BYD Sealion 5,Comfort,BYD ,Automa,Hybrid,No Rating,R 499 990
-BYD,BYD Sealion 5,Comfort,BYD ,Automa,Hybrid,No Rating,R 499 990
-BYD,BYD Sealion 6,Dynamic,BYD ,9 000,Automatic,No Rating,R 659 890
-BYD,BYD Sealion 5,Comfort,BYD ,950,Automatic,No Rating,R 499 500
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 989 900
-BYD,BYD Atto 3,Standard,BYD ,150,Automatic,No Rating,R 699 890
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 1 079 900
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 341 900
-BYD,ined,,ined,,,,
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 341 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 1 019 900
-BYD,BYD Seal,Premium Extended Range,BYD ,Automa,Electric,No Rating,R 999 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 395 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 395 900
+BYD,BYD Sealion 6,Dynamic,2026,3 000,Automatic,No Rating,R 699 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 789 950
+BYD,ined,,unde,,,,
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 789 950
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 619 950
+BYD,BYD Sealion 7,Performance AWD,2026,Automa,Electric,No Rating,R 1 289 500
+BYD,BYD Atto 8,Premium,2026,1 900,Automatic,No Rating,R 1 039 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 789 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 950
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 979 950
+BYD,BYD Shark 6,Premium AWD,2026,3 000,Automatic,No Rating,R 949 950
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 393 900
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 341 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 395 900
-BYD,BYD Dolphin Surf,Comfort,BYD ,Automa,Electric,No Rating,R 341 990
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 395 900
-BYD,ined,,ined,,,,
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 393 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 699 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 696 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 989 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 393 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,Automa,Electric,No Rating,R 393 900
+BYD,BYD Sealion 5,Comfort,2026,3 500,Automatic,No Rating,R 499 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 336 900
+BYD,BYD Shark 6,Premium AWD,2026,2 500,Automatic,No Rating,R 959 950
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 679 500
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 639 900
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 619 500
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 900
+BYD,BYD Shark 6,Premium AWD,2026,2 200,Automatic,No Rating,R 959 950
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 619 500
+BYD,,,,,,Fair Price,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 494 500
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 336 900
+BYD,BYD Seal,Performance AWD,2026,Automa,Electric,No Rating,R 1 179 900
+BYD,ined,,unde,,,,
+BYD,BYD Sealion 5,Dynamic,2026,5 350,Automatic,No Rating,R 529 900
+BYD,BYD Sealion 6,Premium AWD,2026,3 526,Automatic,No Rating,R 754 900
+BYD,BYD Shark 6,Premium AWD,2026,2 000,Automatic,No Rating,R 949 900
+BYD,BYD Sealion 6,Dynamic,2025,12 000,Automatic,No Rating,R 609 900
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 495 500
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 990
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 969 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 969 500
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 969 500
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 500
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Dolphin,Standard Range,BYD ,Automa,Electric,No Rating,R 529 900
-BYD,BYD Sealion 6,Comfort,BYD ,Automa,Hybrid,No Rating,R 629 900
-BYD,BYD Sealion 6,Comfort,BYD ,Automa,Hybrid,No Rating,R 629 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 696 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 989 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 989 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 999 900
-BYD,BYD Dolphin Surf,Comfort,BYD ,100,Automatic,No Rating,R 341 890
-BYD,BYD Dolphin Surf,Dynamic,BYD ,100,Automatic,No Rating,R 395 890
-BYD,BYD Dolphin Surf,Dynamic,BYD ,100,Automatic,No Rating,R 395 890
-BYD,BYD Sealion 7,Performance AWD,BYD ,25,Automatic,No Rating,R 1 249 900
-BYD,BYD Dolphin Surf,Dynamic,BYD ,10,Automatic,No Rating,R 393 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 696 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 696 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 797 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 679 500
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 679 500
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 679 500
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 679 500
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 504 900
+BYD,ined,,unde,,,,
+BYD,BYD Sealion 6,Dynamic,2026,5 450,Automatic,No Rating,R 679 900
+BYD,BYD Seal,Performance AWD,2026,Automa,Electric,No Rating,R 1 211 900
+BYD,BYD Seal,Premium Extended Range,2026,Automa,Electric,No Rating,R 1 007 900
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,BYD Sealion 6,Dynamic,BYD ,Automa,Hybrid,No Rating,R 696 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,BYD Shark 6,Premium AWD,BYD ,Automa,Hybrid,No Rating,R 969 900
-BYD,ined,,ined,,,,
-BYD,BYD Atto 3,Standard,BYD ,Automa,Electric,No Rating,R 699 900
-BYD,BYD Sealion 6,Premium AWD,BYD ,150,Automatic,No Rating,R 799 890
-BYD,BYD Sealion 6,Dynamic,BYD ,100,Automatic,No Rating,R 699 890
-BYD,BYD Sealion 6,Comfort,BYD ,100,Automatic,No Rating,R 639 890
-BYD,BYD Shark 6,Premium AWD,BYD ,500,Automatic,No Rating,R 989 890
-BYD,BYD Seal,AWD Performance,BYD ,100,Automatic,No Rating,R 1 199 890
+BYD,BYD Atto 8,Performance AWD,2026,1 000,Automatic,No Rating,R 1 259 900
+BYD,BYD Dolphin Surf,Dynamic,2026,2 500,Automatic,High Price,R 399 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 564 920
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 759 999
+BYD,BYD Sealion 5,Comfort,2026,10 404,Automatic,No Rating,R 459 900
+BYD,BYD Sealion 5,Dynamic,2026,2 000,Automatic,No Rating,R 559 950
+BYD,BYD Sealion 5,Dynamic,2026,1 200,Automatic,No Rating,R 559 950
+BYD,BYD Sealion 5,Dynamic,2026,500,Automatic,No Rating,R 559 950
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 899 999
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 900
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 341 900
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
 BYD,,,,,,No Rating,
-BYD,BYD Atto 3,Extended,BYD ,11 000,Automatic,No Rating,R 699 890
-BYD,BYD Sealion 5,Comfort,BYD ,3 450,Automatic,No Rating,R 499 500
-BYD,BYD Sealion 5,Comfort,BYD ,2 750,Automatic,No Rating,R 499 500
-BYD,BYD Dolphin Surf,Comfort,BYD ,3 350,Automatic,No Rating,R 339 500
-BYD,BYD Dolphin Surf,Comfort,BYD ,1 950,Automatic,No Rating,R 339 500
-BYD,BYD Sealion 5,Dynamic,BYD ,2 580,Automatic,No Rating,R 559 500
-BYD,BYD Sealion 6,Dynamic,BYD ,7 850,Automatic,No Rating,R 649 500
-BYD,BYD Sealion 5,Dynamic,BYD ,2 075,Automatic,No Rating,R 559 500
-BYD,BYD Shark 6,Premium AWD,BYD ,4 550,Automatic,No Rating,R 949 500
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Sealion 6,Comfort,2025,10 000,Automatic,No Rating,R 579 900
+BYD,BYD Atto 3,Standard,2026,2 850,Automatic,No Rating,R 679 950
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 549 900
+BYD,BYD Sealion 7,Performance AWD,2026,700,Automatic,No Rating,R 1 279 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Sealion 6,Dynamic,2026,6 000,Automatic,No Rating,R 659 900
+BYD,BYD Sealion 6,Dynamic,2026,8 500,Automatic,No Rating,R 639 500
+BYD,BYD Sealion 5,Dynamic,2026,5 500,Automatic,No Rating,R 539 900
+BYD,,,,,,No Rating,
+BYD,,,,,,Fair Price,
+BYD,,,,,,No Rating,
+BYD,BYD Sealion 6,Premium AWD,2025,9 000,Automatic,No Rating,R 719 900
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 504 920
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 336 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 977 920
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 789 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 559 900
+BYD,ined,,unde,,,,
+BYD,BYD Atto 8,Performance AWD,2026,3 000,Automatic,No Rating,R 1 259 890
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 1 089 999
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 393 900
+BYD,BYD Sealion 7,Performance AWD,2026,101,Automatic,No Rating,R 1 309 900
+BYD,BYD Seal,Premium Extended Range,2026,Automa,Electric,No Rating,R 919 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 659 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 659 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Seal,Premium Extended Range,2026,50,Automatic,No Rating,R 999 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 979 900
+BYD,BYD Shark 6,Premium AWD,2026,5 000,Automatic,No Rating,R 959 890
+BYD,BYD Shark 6,Premium AWD,2026,1 500,Automatic,No Rating,R 1 019 900
+BYD,BYD Atto 8,Performance AWD,2026,Automa,Hybrid,No Rating,R 1 149 900
+BYD,BYD Shark 6,Premium AWD,2026,750,Automatic,No Rating,R 979 950
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Sealion 6,Comfort,2025,16 900,Automatic,No Rating,R 584 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 549 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Dolphin,Standard Range,2024,33 000,Automatic,Great Price,R 429 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Dolphin,Extended Range,2026,Automa,Electric,No Rating,R 602 900
+BYD,BYD Seal,Performance AWD,2026,Automa,Electric,No Rating,R 1 171 900
+BYD,BYD Shark 6,Premium AWD,2026,34 000,Automatic,No Rating,R 839 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Atto 8,Premium,2026,100,Automatic,No Rating,R 1 049 995
+BYD,BYD Atto 8,Performance AWD,2026,100,Automatic,No Rating,R 1 259 900
+BYD,BYD Sealion 6,Dynamic,2026,5 000,Automatic,No Rating,R 679 900
+BYD,ined,,unde,,,,
+BYD,BYD Sealion 5,Dynamic,2026,200,Automatic,No Rating,R 559 899
+BYD,BYD Sealion 5,Dynamic,2026,4 735,Automatic,No Rating,R 529 990
+BYD,BYD Seal,Performance AWD,2026,Automa,Electric,No Rating,R 1 189 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 899
+BYD,BYD Seal,Premium Extended Range,2026,Automa,Electric,No Rating,R 1 007 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 679 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 919 900
+BYD,BYD Atto 8,Premium,2026,500,Automatic,No Rating,R 1 049 900
+BYD,BYD Sealion 6,Premium AWD,2026,4 000,Automatic,No Rating,R 729 900
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 341 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 659 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 549 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,Fair Price,
+BYD,BYD Seal,AWD Performance,2026,3 550,Automatic,No Rating,R 1 099 900
+BYD,BYD Sealion 6,Premium AWD,2026,5 185,Automatic,No Rating,R 769 900
+BYD,ined,,unde,,,,
+BYD,BYD Sealion 6,Dynamic,2026,8 697,Automatic,No Rating,R 629 990
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 799 900
+BYD,BYD Sealion 7,Premium,2026,Automa,Electric,No Rating,R 1 109 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 679 900
+BYD,BYD Seal,Performance AWD,2026,100,Automatic,No Rating,R 1 211 990
+BYD,BYD Sealion 7,Performance AWD,2026,1 000,Automatic,No Rating,R 1 319 900
+BYD,BYD Sealion 5,Dynamic,2026,10 000,Automatic,No Rating,R 529 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 679 900
+BYD,BYD Sealion 5,Dynamic,2026,5 500,Automatic,No Rating,R 549 890
+BYD,BYD Sealion 6,Premium AWD,2026,3 200,Automatic,No Rating,R 779 900
+BYD,BYD Sealion 5,Dynamic,2026,4 600,Automatic,No Rating,R 559 900
+BYD,BYD Sealion 6,Dynamic,2026,3 200,Automatic,No Rating,R 689 900
+BYD,BYD Sealion 6,Dynamic,2026,3 500,Automatic,No Rating,R 689 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,ined,,unde,,,,
+BYD,BYD Dolphin Surf,Dynamic,2026,12 500,Automatic,Fair Price,R 379 889
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 629 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 549 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 629 900
+BYD,BYD Sealion 7,Performance AWD,2026,Automa,Electric,No Rating,R 1 319 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Dolphin Surf,Comfort,2026,5 697,Automatic,No Rating,R 334 990
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 494 900
+BYD,BYD Seal,Premium Extended Range,2026,Automa,Electric,No Rating,R 989 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 959 900
+BYD,BYD Sealion 6,Premium AWD,2026,4 800,Automatic,No Rating,R 775 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 949 900
+BYD,BYD Shark 6,Premium AWD,2026,2 050,Automatic,No Rating,R 999 500
+BYD,BYD Dolphin,Extended Range,2026,Automa,Electric,No Rating,R 599 900
+BYD,BYD Sealion 5,Dynamic,2026,16 500,Automatic,No Rating,R 539 890
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 639 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Atto 3,Standard,2024,41 000,Automatic,No Rating,R 569 890
+BYD,BYD Shark 6,Premium AWD,2026,6 836,Automatic,No Rating,R 929 990
+BYD,BYD Dolphin Surf,Comfort,2026,5 500,Automatic,No Rating,R 349 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Atto 3,Standard,2024,47 800,Automatic,No Rating,R 549 890
+BYD,BYD Dolphin Surf,Comfort,2026,5 500,Automatic,No Rating,R 349 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 389 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,ined,,unde,,,,
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 393 900
+BYD,BYD Shark 6,Premium AWD,2026,150,Automatic,No Rating,R 969 900
+BYD,BYD Sealion 7,Premium,2026,Automa,Electric,No Rating,R 1 069 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Shark 6,Premium AWD,2026,10 000,Automatic,No Rating,R 1 149 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Atto 3,Extended,2026,40 000,Automatic,No Rating,R 689 900
+BYD,BYD Atto 8,Performance AWD,2026,Automa,Hybrid,No Rating,R 1 259 900
+BYD,BYD Sealion 5,Dynamic,2026,150,Automatic,No Rating,R 569 900
+BYD,BYD Sealion 5,Comfort,2026,1 550,Automatic,No Rating,R 494 900
+BYD,BYD Seal,AWD Performance,2026,4 200,Automatic,No Rating,R 1 149 950
+BYD,BYD Dolphin Surf,Dynamic,2026,10,Automatic,Fair Price,R 392 900
+BYD,BYD Shark 6,Premium AWD,2026,8 000,Automatic,No Rating,R 949 900
+BYD,BYD Dolphin,Extended Range,2026,50,Automatic,No Rating,R 599 890
+BYD,BYD Sealion 6,Premium AWD,2026,100,Automatic,No Rating,R 797 900
+BYD,BYD Sealion 7,Premium,2026,100,Automatic,No Rating,R 1 109 900
+BYD,BYD Dolphin Surf,Dynamic,2026,100,Automatic,Fair Price,R 395 900
+BYD,BYD Shark 6,Premium AWD,2026,93,Automatic,No Rating,R 989 900
+BYD,BYD Shark 6,Premium AWD,2025,32 000,Automatic,No Rating,R 875 900
+BYD,BYD Sealion 5,Dynamic,2026,11 000,Automatic,No Rating,R 549 900
+BYD,BYD Dolphin Surf,Dynamic,2026,100,Automatic,Fair Price,R 395 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Sealion 5,Dynamic,2026,5 000,Automatic,No Rating,R 519 900
+BYD,BYD Sealion 5,Dynamic,2026,5 000,Automatic,No Rating,R 519 900
+BYD,BYD Sealion 5,Dynamic,2026,5 000,Automatic,No Rating,R 519 900
+BYD,BYD Shark 6,Premium AWD,2026,101,Automatic,No Rating,R 989 900
+BYD,BYD Dolphin Surf,Comfort,2026,2 200,Automatic,No Rating,R 339 900
+BYD,BYD Seal,AWD Performance,2026,150,Automatic,No Rating,R 1 199 900
+BYD,BYD Dolphin Surf,Dynamic,2026,150,Automatic,Fair Price,R 395 900
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 334 900
+BYD,BYD Dolphin Surf,Dynamic,2026,1 000,Automatic,Fair Price,R 395 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Sealion 6,Dynamic,2026,101,Automatic,No Rating,R 699 900
+BYD,BYD Sealion 5,Dynamic,2026,101,Automatic,No Rating,R 569 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 579 900
+BYD,BYD Sealion 7,Performance AWD,2026,Automa,Electric,No Rating,R 1 299 900
+BYD,ined,,unde,,,,
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 689 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Sealion 6,Dynamic,2026,500,Automatic,No Rating,R 689 950
+BYD,BYD Sealion 6,Comfort,2026,50,Automatic,No Rating,R 635 990
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 1 089 990
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 579 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 1 039 990
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 5,Dynamic,2026,Automa,Hybrid,No Rating,R 569 900
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 499 990
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Sealion 5,Comfort,2026,Automa,Hybrid,No Rating,R 499 990
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 1 079 900
+BYD,ined,,unde,,,,
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 341 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 393 900
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 341 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 1 019 900
+BYD,BYD Seal,Premium Extended Range,2026,Automa,Electric,No Rating,R 999 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 341 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Dolphin Surf,Comfort,2026,Automa,Electric,No Rating,R 341 990
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 395 900
+BYD,BYD Sealion 6,Dynamic,2026,3 000,Automatic,No Rating,R 689 890
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 393 900
+BYD,BYD Dolphin Surf,Dynamic,2026,Automa,Electric,No Rating,R 393 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 999 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 696 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 696 900
+BYD,BYD Sealion 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 797 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 969 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 696 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 969 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 969 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Atto 3,Standard,2026,Automa,Electric,No Rating,R 699 900
+BYD,BYD Dolphin,Standard Range,2026,Automa,Electric,No Rating,R 529 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 699 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 696 900
+BYD,BYD Shark 6,Premium AWD,2026,Automa,Hybrid,No Rating,R 989 900
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 629 900
+BYD,BYD Sealion 6,Comfort,2026,Automa,Hybrid,No Rating,R 629 900
+BYD,BYD Sealion 6,Dynamic,2026,Automa,Hybrid,No Rating,R 696 900
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,,,,,,No Rating,
+BYD,BYD Dolphin Surf,Dynamic,2026,3 000,Automatic,Fair Price,R 389 890
+BYD,ined,,unde,,,,
+BYD,BYD Dolphin Surf,Dynamic,2026,84,Automatic,Fair Price,R 389 990
+BYD,BYD Shark 6,Premium AWD,2026,2 500,Automatic,No Rating,R 969 890
+BYD,BYD Sealion 6,Premium AWD,2026,150,Automatic,No Rating,R 799 890
+BYD,BYD Sealion 6,Dynamic,2026,5 000,Automatic,No Rating,R 689 890
+BYD,BYD Dolphin Surf,Comfort,2026,100,Automatic,No Rating,R 341 890
+BYD,BYD Dolphin Surf,Dynamic,2026,100,Automatic,Fair Price,R 395 890
+BYD,BYD Atto 3,Extended,2024,15 000,Automatic,No Rating,R 699 890
+BYD,BYD Sealion 6,Comfort,2026,100,Automatic,No Rating,R 639 890
+BYD,BYD Seal,AWD Performance,2026,100,Automatic,No Rating,R 1 199 890
+BYD,BYD Atto 3,Standard,2026,400,Automatic,No Rating,R 624 900

@@ -1,81 +1,78 @@
 Brand,Model,Variant,Year,Milage,Manual_Automatic,Price_rating,Price
+Maserati,,,,,,Great Price,
+Maserati,,,,,,No Rating,
+Maserati,,,,,,No Rating,
+Maserati,Maserati Ghibli,Ghibli,2020,46 884,Automatic,,POA
+Maserati,Maserati Levante,Diesel,2018,78 000,Automatic,Great Price,R 748 888
+Maserati,Maserati Ghibli,S,2019,28 000,Automatic,No Rating,R 949 900
+Maserati,Maserati Quattroporte,Sport GT S,2011,78 000,Automatic,No Rating,R 745 995
+Maserati,Maserati Levante,Trofeo,2021,30 000,Automatic,No Rating,R 1 699 990
+Maserati,Maserati Quattroporte,Quattroporte,2007,86 075,Automatic,No Rating,R 199 900
+Maserati,Maserati Levante,Trofeo,2022,24 000,Automatic,No Rating,R 2 199 900
+Maserati,Maserati Levante,Modena,2022,42 000,Automatic,No Rating,R 1 495 995
+Maserati,Maserati Levante,Modena,2022,41 588,Automatic,No Rating,R 1 499 000
+Maserati,ined,,unde,,,,
+Maserati,Maserati Ghibli,S,2021,57 000,Automatic,No Rating,R 999 000
+Maserati,Maserati Levante,Diesel GranLusso,2020,78 900,Automatic,No Rating,R 899 500
+Maserati,Maserati GranTurismo,GranTurismo,2013,24 000,Automatic,No Rating,R 849 900
+Maserati,Maserati Levante,Modena,2023,45 000,Automatic,No Rating,R 1 499 999
+Maserati,Maserati Levante,Diesel,2017,135 003,Automatic,Fair Price,R 759 900
+Maserati,Maserati Gransport,Spider V8,2006,51 034,Automatic,No Rating,R 725 950
+Maserati,Maserati Quattroporte,Trofeo,2021,16 000,Automatic,No Rating,R 2 199 999
+Maserati,Maserati GranTurismo,S Auto,2009,43 500,Automatic,No Rating,R 669 000
+Maserati,Maserati Ghibli,S,2017,66 000,Automatic,No Rating,R 699 500
+Maserati,Maserati Quattroporte,GranLusso,2020,9 500,Automatic,No Rating,R 1 299 999
+Maserati,Maserati Gransport,V8 Coupe,2007,41 743,Automatic,No Rating,R 589 900
+Maserati,Maserati GranTurismo,S Auto,2010,29 000,Automatic,No Rating,R 689 000
+Maserati,Maserati GranCabrio,MC,2021,19 000,Automatic,No Rating,R 2 550 000
+Maserati,Maserati Gransport,V8 Coupe,2007,81 500,Automatic,No Rating,R 479 000
+Maserati,Maserati Levante,Diesel,2017,83 800,Automatic,Great Price,R 799 990
+Maserati,Maserati Ghibli,Trofeo,2022,22 000,Automatic,No Rating,R 2 499 995
 Maserati,,,,,,No Rating,
 Maserati,,,,,,No Rating,
 Maserati,,,,,,No Rating,
-Maserati,Maserati Levante,Modena,Mase,41 588,Automatic,No Rating,R 1 599 000
-Maserati,ined,,ined,,,,
-Maserati,Maserati Ghibli,S,Mase,28 000,Automatic,No Rating,R 999 900
-Maserati,Maserati Levante,Trofeo,Mase,30 000,Automatic,No Rating,R 1 799 990
-Maserati,Maserati GranCabrio,MC,Mase,19 000,Automatic,No Rating,R 2 550 000
-Maserati,Maserati Ghibli,S,Mase,57 000,Automatic,No Rating,R 1 049 000
-Maserati,Maserati Ghibli,GT Twin-turbocharged,Mase,124 000,Manual,No Rating,R 399 950
-Maserati,Maserati Levante,Modena,Mase,42 000,Automatic,No Rating,R 1 495 995
-Maserati,Maserati Levante,Levante,Mase,35 000,Automatic,No Rating,R 1 299 900
-Maserati,Maserati Levante,Diesel,Mase,83 800,Automatic,Great Price,R 799 990
-Maserati,Maserati Quattroporte,Diesel GranLusso,Mase,33 000,Automatic,No Rating,R 1 099 990
-Maserati,Maserati Ghibli,Diesel,Mase,30 000,Automatic,No Rating,R 649 900
-Maserati,Maserati Quattroporte,Sport GT S,Mase,62 000,Automatic,No Rating,R 795 995
-Maserati,Maserati Levante,GT Hybrid,Mase,47 000,Automatic,No Rating,R 1 699 900
-Maserati,Maserati Quattroporte,Trofeo,Mase,16 000,Automatic,No Rating,R 2 199 999
-Maserati,Maserati Levante,Diesel,Mase,46 292,Automatic,Fair Price,R 1 299 000
-Maserati,Maserati GranTurismo,GranTurismo,Mase,24 000,Automatic,No Rating,R 849 900
-Maserati,Maserati Levante,Diesel,Mase,135 003,Automatic,Fair Price,R 799 900
-Maserati,Maserati GranTurismo,S Auto,Mase,74 700,Automatic,No Rating,R 499 850
-Maserati,Maserati Levante,Modena,Mase,21 438,Automatic,No Rating,R 1 599 000
-Maserati,Maserati Quattroporte,GranLusso,Mase,9 500,Automatic,No Rating,R 1 299 999
-Maserati,Maserati Quattroporte,S,Mase,74 000,Automatic,No Rating,R 599 995
-Maserati,Maserati Levante,Diesel,Mase,79 000,Automatic,Great Price,R 749 900
-Maserati,Maserati Ghibli,Ghibli,Mase,82 787,Automatic,No Rating,R 499 000
-Maserati,Maserati Gransport,V8 Coupe,Mase,41 743,Automatic,No Rating,R 589 900
-Maserati,Maserati GranTurismo,Sport,Mase,35 000,Automatic,No Rating,R 1 079 900
+Maserati,Maserati Levante,Levante,2021,35 000,Automatic,No Rating,R 1 299 900
+Maserati,Maserati MC20,MC20 Coupe,2023,1 800,Automatic,No Rating,R 5 999 900
+Maserati,Maserati Levante,S GranSport,2019,28 000,Automatic,No Rating,R 1 249 990
+Maserati,Maserati Ghibli,Diesel,2017,30 000,Automatic,No Rating,R 629 990
+Maserati,ined,,unde,,,,
+Maserati,Maserati GranTurismo,GranTurismo,2015,75 000,Automatic,No Rating,R 699 900
+Maserati,Maserati Ghibli,Diesel,2017,46 000,Automatic,No Rating,R 799 950
+Maserati,Maserati GranCabrio,GranCabrio MC,2015,33 000,Automatic,No Rating,R 1 699 990
+Maserati,Maserati Levante,Diesel,2017,100 000,Automatic,,POA
+Maserati,Maserati Levante,Modena S,2022,19 000,Automatic,No Rating,R 1 699 900
+Maserati,Maserati Levante,Diesel,2017,132 000,Automatic,Fair Price,R 699 000
+Maserati,Maserati Levante,S GranSport,2018,79 800,Automatic,No Rating,R 999 999
+Maserati,Maserati Ghibli,GranLusso,2019,25 136,Automatic,No Rating,R 999 999
+Maserati,Maserati Levante,Diesel,2017,96 000,Automatic,Fair Price,R 775 000
+Maserati,Maserati Ghibli,Diesel,2018,140 000,Automatic,No Rating,R 699 995
+Maserati,Maserati Quattroporte,GTS,2016,78 000,Automatic,No Rating,R 649 900
 Maserati,,,,,,No Rating,
 Maserati,,,,,,No Rating,
 Maserati,,,,,,No Rating,
-Maserati,Maserati Ghibli,Diesel GranLusso,Mase,64 698,Automatic,No Rating,R 849 990
-Maserati,Maserati Ghibli,Trofeo,Mase,22 000,Automatic,No Rating,R 2 499 995
-Maserati,Maserati Levante,Diesel,Mase,71 000,Automatic,No Rating,R 989 900
-Maserati,Maserati GranTurismo,GranTurismo,Mase,75 000,Automatic,No Rating,R 699 900
-Maserati,Maserati Ghibli,Diesel,Mase,46 000,Automatic,No Rating,R 799 950
-Maserati,Maserati GranCabrio,Sport,Mase,46 830,Automatic,,POA
-Maserati,Maserati MC20,MC20 Coupe,Mase,1 800,Automatic,No Rating,R 5 999 900
-Maserati,Maserati Quattroporte,Diesel,Mase,20 700,Automatic,No Rating,R 899 500
-Maserati,Maserati Levante,Diesel,Mase,100 000,Automatic,Great Price,R 739 990
-Maserati,Maserati Ghibli,GranLusso,Mase,25 136,Automatic,No Rating,R 999 999
-Maserati,Maserati GranCabrio,GranCabrio MC,Mase,33 000,Automatic,No Rating,R 1 699 990
-Maserati,Maserati Levante,Modena S,Mase,19 000,Automatic,No Rating,R 1 699 900
-Maserati,Maserati Levante,S GranSport,Mase,79 800,Automatic,No Rating,R 1 399 999
-Maserati,Maserati Levante,Diesel,Mase,132 000,Automatic,Great Price,R 749 000
-Maserati,Maserati Quattroporte,Diesel GranSport,Mase,19 800,Automatic,No Rating,R 1 299 900
-Maserati,ined,,ined,,,,
-Maserati,Maserati Levante,Diesel,Mase,96 000,Automatic,Fair Price,R 775 000
-Maserati,Maserati Ghibli,Diesel,Mase,140 000,Automatic,No Rating,R 699 995
-Maserati,Maserati Quattroporte,GTS,Mase,78 000,Automatic,No Rating,R 649 900
-Maserati,,,,,,No Rating,
-Maserati,,,,,,No Rating,
-Maserati,,,,,,No Rating,
-Maserati,ined,,ined,,,,
-Maserati,Maserati Levante,Modena,Mase,41 588,Automatic,No Rating,R 1 599 000
-Maserati,Maserati Ghibli,S,Mase,28 000,Automatic,No Rating,R 999 900
-Maserati,Maserati Ghibli,S,Mase,57 000,Automatic,No Rating,R 1 049 000
-Maserati,Maserati GranCabrio,MC,Mase,19 000,Automatic,No Rating,R 2 550 000
-Maserati,Maserati Levante,Trofeo,Mase,30 000,Automatic,No Rating,R 1 799 990
-Maserati,Maserati Levante,Diesel,Mase,83 800,Automatic,Great Price,R 799 990
-Maserati,Maserati Ghibli,Diesel,Mase,30 000,Automatic,No Rating,R 649 900
-Maserati,Maserati Quattroporte,Diesel GranLusso,Mase,33 000,Automatic,No Rating,R 1 099 990
-Maserati,Maserati Levante,Modena,Mase,42 000,Automatic,No Rating,R 1 495 995
-Maserati,Maserati Levante,Levante,Mase,35 000,Automatic,No Rating,R 1 299 900
-Maserati,Maserati Levante,Diesel,Mase,135 003,Automatic,Fair Price,R 799 900
-Maserati,Maserati Levante,Diesel,Mase,46 292,Automatic,Fair Price,R 1 299 000
-Maserati,Maserati Levante,Modena,Mase,21 438,Automatic,No Rating,R 1 599 000
-Maserati,Maserati Levante,GT Hybrid,Mase,47 000,Automatic,No Rating,R 1 699 900
-Maserati,Maserati Quattroporte,GranLusso,Mase,9 500,Automatic,No Rating,R 1 299 999
-Maserati,Maserati Quattroporte,Trofeo,Mase,16 000,Automatic,No Rating,R 2 199 999
-Maserati,Maserati Quattroporte,S,Mase,74 000,Automatic,No Rating,R 599 995
-Maserati,Maserati Levante,Diesel,Mase,79 000,Automatic,Great Price,R 749 900
-Maserati,Maserati GranCabrio,Sport,Mase,18 513,Automatic,No Rating,R 1 599 000
-Maserati,Maserati Ghibli,Ghibli,Mase,82 787,Automatic,No Rating,R 499 000
-Maserati,Maserati Quattroporte,GTS,Mase,88 985,Automatic,No Rating,R 699 900
-Maserati,Maserati Levante,Levante,Mase,35 000,Automatic,No Rating,R 1 299 900
-Maserati,Maserati Levante,Diesel,Mase,78 000,Automatic,Great Price,R 888 888
-Maserati,Maserati Levante,Trofeo,Mase,20 000,Automatic,No Rating,R 2 499 000
-Maserati,Maserati Levante,S GranSport,Mase,28 000,Automatic,No Rating,R 1 249 990
+Maserati,Maserati Ghibli,Ghibli,2020,46 884,Automatic,,POA
+Maserati,Maserati Levante,Diesel,2018,78 000,Automatic,Great Price,R 748 888
+Maserati,Maserati Ghibli,S,2019,28 000,Automatic,No Rating,R 949 900
+Maserati,Maserati Levante,Trofeo,2021,30 000,Automatic,No Rating,R 1 699 990
+Maserati,Maserati Levante,Trofeo,2022,24 000,Automatic,No Rating,R 2 199 900
+Maserati,Maserati Levante,Modena,2022,42 000,Automatic,No Rating,R 1 495 995
+Maserati,Maserati Levante,Modena,2022,41 588,Automatic,No Rating,R 1 499 000
+Maserati,Maserati Ghibli,S,2021,57 000,Automatic,No Rating,R 999 000
+Maserati,Maserati Levante,Diesel GranLusso,2020,78 900,Automatic,No Rating,R 899 500
+Maserati,Maserati Levante,Modena,2023,45 000,Automatic,No Rating,R 1 499 999
+Maserati,Maserati Levante,Diesel,2017,135 003,Automatic,Fair Price,R 759 900
+Maserati,Maserati Quattroporte,Trofeo,2021,16 000,Automatic,No Rating,R 2 199 999
+Maserati,Maserati Ghibli,S,2017,66 000,Automatic,No Rating,R 699 500
+Maserati,Maserati Quattroporte,GranLusso,2020,9 500,Automatic,No Rating,R 1 299 999
+Maserati,Maserati GranCabrio,MC,2021,19 000,Automatic,No Rating,R 2 550 000
+Maserati,Maserati Levante,Diesel,2017,83 800,Automatic,Great Price,R 799 990
+Maserati,Maserati Ghibli,Trofeo,2022,22 000,Automatic,No Rating,R 2 499 995
+Maserati,Maserati Levante,Levante,2021,35 000,Automatic,No Rating,R 1 299 900
+Maserati,Maserati Levante,Diesel,2017,79 000,Automatic,Great Price,R 749 900
+Maserati,Maserati Levante,GT Hybrid,2023,51 000,Automatic,No Rating,R 1 599 900
+Maserati,Maserati Levante,Diesel,2018,46 292,Automatic,Fair Price,R 1 299 000
+Maserati,ined,,unde,,,,
+Maserati,Maserati Quattroporte,Diesel GranLusso,2019,33 000,Automatic,No Rating,R 1 099 990
+Maserati,Maserati Ghibli,Ghibli,2016,82 787,Automatic,No Rating,R 499 000
+Maserati,Maserati GranCabrio,Sport,2018,18 513,Automatic,No Rating,R 1 699 000
+Maserati,Maserati Ghibli,Diesel GranLusso,2020,64 698,Automatic,No Rating,R 849 990
