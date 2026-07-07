@@ -1,40 +1,69 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import os, joblib
+import os, joblib, csv
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error,accuracy_score, precision_score, recall_score, f1_score
 from car_web_scrape import Brand_names_autotrader as brand_names
+from datetime import date
+from re import sub
 
 colors = ['#d62728', '#ff7f0e', '#ffdb58', '#2ca02c', '#1f77b4']  # red, orange, yellow, green, blue
 
 user_input = int(input('press 1 to train model\npress 2 to use model\nenter: '))
 if user_input == 1:
+    script_path = os.path.dirname(os.path.abspath(__file__))
+    new_folder_path = fr'{script_path}\{date.today()}'
+    new_plot_folder_path = fr'{new_folder_path}\plot'
+    with open(new_folder_path,'a',newline='',encoding='utf-8') as file:
+        model_performance = csv.writer(file)
+        model_performance.writerow(['Model_name','Accuracy_score','F1','Number_of_rows'])
+
     print('starting training')
+
     def plot_data(dataframe):
-        plt.figure(figsize=(10, 6))
+        plt.subplot(3,1)
+        plt.figure(figsize=(16, 9))
         for rating in range(5):
             mask = dataframe['Price_rating_num'] == rating
             plt.scatter(dataframe.loc[mask, 'Price'], 
                         dataframe.loc[mask, 'Price_rating_num'],
                         c=colors[rating],
-                        label=f'Rating {rating}',
-                        s=70, alpha=0.85, edgecolors='black', linewidth=0.6)
+                        label=f'Rating {rating}')
 
         plt.xlabel('Price', fontsize=13)
         plt.ylabel('Price Rating (0-4)', fontsize=13)
         plt.title(f'Scatter Plot: Price vs Price Rating - {name} {model_name}', fontsize=15)
         plt.yticks([0, 1, 2, 3, 4])
-        plt.grid(True, alpha=0.3, linestyle='--')
+        plt.grid(True, alpha=0.3, linestyle='-')
         plt.legend(title='Price Rating')
+
+        plt.figure(figsize=(10, 6))
+        plt.scatter(dataframe['Milage'], dataframe['Price'], alpha=0.7, c='steelblue', s=50)
+        plt.xlabel('Mileage', fontsize=13)
+        plt.ylabel('Price', fontsize=13)
+        plt.title(f'Price vs Mileage - {name} {model_name}', fontsize=15)
+        plt.grid(True, alpha=0.3)
+        plt.tight_layout()
+
+        plt.figure(figsize=(10, 6))
+        plt.scatter(dataframe['Year'], dataframe['Price'], alpha=0.7, c='darkorange', s=50)
+        plt.xlabel('Year', fontsize=13)
+        plt.ylabel('Price', fontsize=13)
+        plt.title(f'Price vs Year - {name} {model_name}', fontsize=15)
+        plt.grid(True, alpha=0.3)
+        plt.tight_layout()
+
         plt.show()
+        plt.savefig(fr'{new_plot_folder_path}\{model_name}')
 
     def clean_model_name(model):
         global name
         words = str(model).split()
-        cleaned_words = [w for w in words if w.lower() != name.lower()]
-        cleaned = ' '.join(cleaned_words).strip()
-        return cleaned if cleaned else model
+        words = [word.lower() for word in words]
+        words = [sub(r'[^a-zA-Z0-9]', '', word) for word in words]
+        words = [word.replace(' ','_') for word in words]
+        return words
 
     model_datasets = {}
     # Mapping from string rating to numeric value
@@ -48,7 +77,6 @@ if user_input == 1:
 
     for name in brand_names:
         #find all csv files
-        script_path = os.path.dirname(os.path.abspath(__file__))
         filename = fr"{script_path}\autotrader_{name}_dataset.csv"
     
         if os.path.exists(filename):#check if they exist
@@ -70,8 +98,8 @@ if user_input == 1:
             print(f"Warning: {filename} not found. Skipping {name}.")
     print('completed training')
     
-    for name, ds in model_datasets.items():
-        ds = ds.copy()
+    for name, dataset in model_datasets.items():
+        ds = dataset.copy()
         ds['Cleaned_Model'] = ds['Model'].apply(clean_model_name)
         for model_name in sorted(ds['Cleaned_Model'].unique()):#seperate all unique models into seperate datasets
             model_filename = f'{model_name}_ml_model.joblib'
@@ -100,46 +128,52 @@ if user_input == 1:
             model = RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)
             model.fit(x_train, y_train)
 
-            model_accuracy_test_results = model.predict(x_test_accuracy)
-            acc = accuracy_score(y_test_accuracy,model_accuracy_test_results)
+            model_test_results = model.predict(x_test_accuracy)
+            acc = accuracy_score(y_test_accuracy,model_test_results)
+            f1 = f1_score(y_test_accuracy,model_test_results)
             #prec = precision_score(y_test_accuracy,model_accuracy_test_results)
             #rec = recall_score(y_test_accuracy,model_accuracy_test_results)
-            #f1 = f1_score(y_test_accuracy,model_accuracy_test_results)
             #r2 = r2_score(y_test_accuracy,model_accuracy_test_results)
             #mae = mean_absolute_error(y_test_accuracy,model_accuracy_test_results)
             #mse = mean_squared_error(y_test_accuracy,model_accuracy_test_results)
-            #\nprecision: {prec}\nrecall: {rec}\nf1: {f1}\nr2: {r2}\nmae: {mae}\nmse: {mse}
-            print(f'accuracy: {acc}')
+            print(f'accuracy: {acc}\n f1: {f1}')
+            model_performance.writerow([model_name,int(acc),int(f1),len(ds)])
             joblib.dump(model, model_filename)#store model
 
 elif user_input == 2:
     script_path = os.path.dirname(os.path.abspath(__file__))
     available_brands = list(brand_names)
-    print("Available brands:")
-    for i, brand in enumerate(available_brands, 1):
-        print(f"{i}. {brand}")
-    brand_idx = int(input("Select brand number: ")) - 1
-    selected_brand = available_brands[brand_idx]
-    filename = fr"{script_path}\autotrader_{selected_brand}_dataset.csv"
-    if os.path.exists(filename):
-        dataset = pd.read_csv(filename)
-        print(f"Loaded: {filename}")
-    else:
-        print(f"Warning: {filename} not found. Skipping {selected_brand}.")
+    while True:
+        print("Available brands:")
+        for i, brand in enumerate(available_brands, 1):
+            print(f"{i}. {brand}")
+        brand_idx = int(input("Select brand number: ")) - 1
+        selected_brand = available_brands[brand_idx]
+        filename = fr"{script_path}\autotrader_{selected_brand}_dataset.csv"
+        if os.path.exists(filename):
+            ds = pd.read_csv(filename)
+            print(f"Loaded: {filename}")
+        else:
+            print(f"Warning: {filename} not found. Skipping {selected_brand}.")
+            continue
     
-    available_models = sorted(dataset['Model'].unique())
-    print(fr"\nAvailable models for {selected_brand}:")
-    for i, model in enumerate(available_models, 1):
-        print(f"{i}. {model}")
-    model_idx = int(input("Select model number: ")) - 1
-    selected_model = available_models[model_idx]
-    model_filename = f'{selected_model}_ml_model.joblib'
-    if not os.path.exists(model_filename):
-        print(f"Model file {model_filename} not found.")
-    else:
-        model = joblib.load(model_filename)
-        price = float(input("\nEnter car price: "))
-        year = int(input("Enter car year: "))
-        prediction = model.predict([[price, year]])[0]
-        rating_map = {0:'No Rating',1:'High Price',2:'Low Price',3:'Fair Price',4:'Great Price'}
-        print(fr"\nThe car's price rating is: {rating_map[prediction]}")
+        available_models = sorted(ds['Cleaned_Model'].unique(),key=str)
+        print(fr"Available models for {selected_brand}:")
+        for i, model in enumerate(available_models, 1):
+            print(f"{i}. {model}")
+        model_idx = int(input("Select model number: ")) - 1
+        selected_model = available_models[model_idx]
+        selected_model = selected_model.replace(selected_brand,'')
+        selected_model = selected_model[1:]
+        model_filename = f'{script_path}\{selected_model}_ml_model.joblib'
+        if not os.path.exists(model_filename):
+            print(f"Model file {model_filename} not found.") 
+        else:
+            model = joblib.load(model_filename)
+            price = int(input("Enter car price: Rand "))
+            year = int(input("Enter car year: "))
+            milage = int(input('Enter car milage: '))
+            user_data = pd.DataFrame([[price, year,milage]],columns=model.feature_names_in_)
+            prediction = model.predict(user_data)[0]
+            rating_map = ['No Rating','High Price','Low Price','Fair Price','Great Price']
+            print(fr"The car's price rating is: {rating_map[prediction]}")
