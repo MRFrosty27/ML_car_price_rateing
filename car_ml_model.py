@@ -1,3 +1,4 @@
+from xmlrpc.client import DateTime
 import matplotlib.pyplot as plt
 import pandas as pd
 import os, joblib, csv
@@ -5,8 +6,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error,accuracy_score, precision_score, recall_score, f1_score
 from car_web_scrape import Brand_names_autotrader as brand_names
-from datetime import date
-from re import sub
+from datetime import date,datetime
+from re import sub,compile
 
 colors = ['#d62728', '#ff7f0e', '#ffdb58', '#2ca02c', '#1f77b4']  # red, orange, yellow, green, blue
 # Mapping from string rating to numeric value
@@ -32,10 +33,12 @@ if __name__ == '__main__':
         script_path = os.path.dirname(os.path.abspath(__file__))
         new_folder_path = fr'{script_path}\{date.today()}'
         new_plot_folder_path = fr'{new_folder_path}\plot'
-        os.mkdir(fr'{new_folder_path}')
-        with open(new_folder_path,'a',newline='',encoding='utf-8') as file:
+        if not os.path.exists(new_folder_path):
+            os.mkdir(fr'{new_folder_path}',mode=0o777)
+
+        with open(fr'{new_folder_path}\model_training_results.csv','a',newline='',encoding='utf-8') as file:
             model_performance = csv.writer(file)
-            model_performance.writerow(['Model_name','Accuracy_score','F1','Number_of_rows'])
+            model_performance.writerow(['Model_name','Accuracy_score(%)','F1(%)','Number_of_rows'])
 
         print('starting training')
 
@@ -120,46 +123,53 @@ if __name__ == '__main__':
 
                 model_test_results = model.predict(x_test_accuracy)
                 acc = accuracy_score(y_test_accuracy,model_test_results)
-                f1 = f1_score(y_test_accuracy,model_test_results)
+                f1 = f1_score(y_test_accuracy,model_test_results,average='weighted')
                 #prec = precision_score(y_test_accuracy,model_accuracy_test_results)
                 #rec = recall_score(y_test_accuracy,model_accuracy_test_results)
                 #r2 = r2_score(y_test_accuracy,model_accuracy_test_results)
                 #mae = mean_absolute_error(y_test_accuracy,model_accuracy_test_results)
                 #mse = mean_squared_error(y_test_accuracy,model_accuracy_test_results)
                 print(f'accuracy: {acc}\n f1: {f1}')
-                model_performance.writerow([model_name,int(acc),int(f1),len(ds)])
+                with open(fr'{new_folder_path}\model_training_results.csv','a',newline='',encoding='utf-8') as file:
+                    model_performance = csv.writer(file)
+                    model_performance.writerow([model_name,int(acc*100),int(f1*100),len(ds)])
                 joblib.dump(model, model_filename)#store model
 
     elif user_input == 2:
         script_path = os.path.dirname(os.path.abspath(__file__))
-        available_brands = list(brand_names)
+        pattern = compile(r'^\d{4}-\d{2}-\d{2}')
+        date_files = []
+        for f in os.listdir(script_path):
+            if os.path.isdir(os.path.join(script_path, f)):
+                match = pattern.match(f)
+                if match:
+                    try:
+                        datetime.strptime(match.group(0), '%Y-%m-%d')
+                        date_files.append(f)
+                    except ValueError:
+                        continue 
+
+        date_files.sort()
+        
         while True:
-            print("Available brands:")
-            for i, brand in enumerate(available_brands, 1):
-                print(f"{i}. {brand}")
-            brand_idx = int(input("Select brand number: ")) - 1
-            selected_brand = available_brands[brand_idx]
-            filename = fr"{script_path}\autotrader_{selected_brand}_dataset.csv"
-            if os.path.exists(filename):
-                ds = pd.read_csv(filename)
-                print(f"Loaded: {filename}")
-            else:
-                print(f"Warning: {filename} not found. Skipping {selected_brand}.")
-                continue
+            #select a folder that contains the a model with the naming convention of the date of training(yyyy-mm-dd)
+            print('Model training date:')
+            for i, folder in enumerate(date_files, 1):
+                print(f"{i}. {folder}")
+            selected_folder = date_files[int(input("Select folder: ")) - 1]
+
+            #select the model for a specific brand
+            model_details = pd.read_csv(fr'{script_path}\{selected_folder}\model_training_results.csv',)
+            model_name_list = model_details['Model_name'].to_list()
+            for i, model_name in enumerate(model_name_list, 1):
+                print(f"{i}. {model_name}")
+            selected_model = model_name_list[int(input("Select car model: ")) - 1]
+
+            #find the model
+            model_path = os.path.join(script_path, selected_folder, fr'{selected_model}_ml_model.joblib')
+            if os.path.isfile(model_path):
     
-            available_models = sorted(ds['Cleaned_Model'].unique(),key=str)
-            print(fr"Available models for {selected_brand}:")
-            for i, model in enumerate(available_models, 1):
-                print(f"{i}. {model}")
-            model_idx = int(input("Select model number: ")) - 1
-            selected_model = available_models[model_idx]
-            selected_model = selected_model.replace(selected_brand,'')
-            selected_model = selected_model[1:]
-            model_filename = f'{script_path}\{selected_model}_ml_model.joblib'
-            if not os.path.exists(model_filename):
-                print(f"Model file {model_filename} not found.") 
-            else:
-                model = joblib.load(model_filename)
+                model = joblib.load(model_path)
                 price = int(input("Enter car price: Rand "))
                 year = int(input("Enter car year: "))
                 milage = int(input('Enter car milage: '))
@@ -167,3 +177,4 @@ if __name__ == '__main__':
                 prediction = model.predict(user_data)[0]
                 rating_map = ['No Rating','High Price','Low Price','Fair Price','Great Price']
                 print(fr"The car's price rating is: {rating_map[prediction]}")
+            else: print(f'Model was not found\npath: {model_path}')#D:\Python code\cloned repo\text__to_code_model\2026-07-09\toyota_hilux_ml_model.joblib

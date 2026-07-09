@@ -1,5 +1,5 @@
 from cProfile import label
-import os
+import os,csv
 from turtle import title
 from numpy import spacing
 import pandas as pd
@@ -14,6 +14,7 @@ for name in brand_names:
     if os.path.exists(filename):
         ds = pd.read_csv(filename,sep=',',dtype={"Brand": 'str', "Model": 'str',"Variant": 'str',"Year":'str',"Milage": 'str', "Manual_Automatic": 'category',"Price_rating": 'category', "Price": 'str'},header=0)
         print(f"Loaded: {filename}")
+        manual_evaluated_data = []
         #ensure that columns Milage, Year and Price only contain numbers
         ds['Milage'] = ds['Milage'].str.replace(r'[^0-9]', '', regex=True)
         ds['Price'] = ds['Price'].str.replace(r'[^0-9]', '', regex=True)
@@ -64,6 +65,15 @@ for name in brand_names:
                 subp3.legend()
 
                 plt.show()
-
+                while True:
+                    user_rating = [input('rate price-\n1:High Price\n2:Low Price\n3:Fair Price\n4:Great Price\nrating: ')]
+                    if 1<= user_rating <= 4:
+                        user_rating = ['No Rating','High Price','Low Price','Fair Price','Great Price'][user_rating]
+                        break
+                manual_evaluated_data.append({'Model':model_name,'Variant':row.Variant,'Year':row.Year,'Milage':row.Milage,'Manual_Automatic':row.Manual_Automatic,'Price_rating':user_rating,'Price':row.Price})
     else:
             print(f"Warning: {filename} not found. Skipping {name}.")
+    with open(script_path = os.path.dirname(os.path.abspath(__file__)),newline='',encoding='utf-8') as file:
+        csv_file = csv.DictWriter(file,['Model','Variant','Year','Milage','Manual_Automatic','Price_rating','Price'])
+        csv_file.writeheader()
+        csv_file.writerows(manual_evaluated_data)
